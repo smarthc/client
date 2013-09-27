@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891374F417EF72B900FF0840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891374F317EF72B900FF0840 /* Foundation.framework */; };
+		891374F917EF72B900FF0840 /* HomeControlUnitClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 891374F817EF72B900FF0840 /* HomeControlUnitClient.h */; };
+		8913750217EF72B900FF0840 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8913750117EF72B900FF0840 /* XCTest.framework */; };
+		8913750317EF72B900FF0840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891374F317EF72B900FF0840 /* Foundation.framework */; };
+		8913750517EF72B900FF0840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8913750417EF72B900FF0840 /* UIKit.framework */; };
+		8913750817EF72B900FF0840 /* libHomeControlUnitClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 891374F017EF72B900FF0840 /* libHomeControlUnitClient.a */; };
+		8913750E17EF72B900FF0840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8913750C17EF72B900FF0840 /* InfoPlist.strings */; };
+		8919903F17EF7BCC0023E9AD /* UnitFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8919903E17EF7BCC0023E9AD /* UnitFinder.m */; };
+		8919904017EF7BCC0023E9AD /* UnitFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8919903E17EF7BCC0023E9AD /* UnitFinder.m */; };
+		8919904117EF7DAD0023E9AD /* UnitFinder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8919903D17EF7BCC0023E9AD /* UnitFinder.h */; };
+		8919904517EF7E200023E9AD /* UnitFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8919904417EF7E200023E9AD /* UnitFinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8913750617EF72B900FF0840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891374E817EF72B800FF0840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891374EF17EF72B900FF0840;
+			remoteInfo = HomeControlUnitClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		891374EE17EF72B900FF0840 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8919904117EF7DAD0023E9AD /* UnitFinder.h in CopyFiles */,
+				891374F917EF72B900FF0840 /* HomeControlUnitClient.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		891374F017EF72B900FF0840 /* libHomeControlUnitClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHomeControlUnitClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		891374F317EF72B900FF0840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		891374F717EF72B900FF0840 /* HomeControlUnitClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeControlUnitClient-Prefix.pch"; sourceTree = "<group>"; };
+		891374F817EF72B900FF0840 /* HomeControlUnitClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeControlUnitClient.h; sourceTree = "<group>"; };
+		8913750017EF72B900FF0840 /* HomeControlUnitClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeControlUnitClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8913750117EF72B900FF0840 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8913750417EF72B900FF0840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8913750B17EF72B900FF0840 /* HomeControlUnitClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeControlUnitClientTests-Info.plist"; sourceTree = "<group>"; };
+		8913750D17EF72B900FF0840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8919903D17EF7BCC0023E9AD /* UnitFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitFinder.h; sourceTree = "<group>"; };
+		8919903E17EF7BCC0023E9AD /* UnitFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitFinder.m; sourceTree = "<group>"; };
+		8919904417EF7E200023E9AD /* UnitFinderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitFinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891374ED17EF72B900FF0840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891374F417EF72B900FF0840 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891374FD17EF72B900FF0840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8913750217EF72B900FF0840 /* XCTest.framework in Frameworks */,
+				8913750817EF72B900FF0840 /* libHomeControlUnitClient.a in Frameworks */,
+				8913750517EF72B900FF0840 /* UIKit.framework in Frameworks */,
+				8913750317EF72B900FF0840 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891374E717EF72B800FF0840 = {
+			isa = PBXGroup;
+			children = (
+				891374F517EF72B900FF0840 /* HomeControlUnitClient */,
+				8913750917EF72B900FF0840 /* HomeControlUnitClientTests */,
+				891374F217EF72B900FF0840 /* Frameworks */,
+				891374F117EF72B900FF0840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891374F117EF72B900FF0840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891374F017EF72B900FF0840 /* libHomeControlUnitClient.a */,
+				8913750017EF72B900FF0840 /* HomeControlUnitClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891374F217EF72B900FF0840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				891374F317EF72B900FF0840 /* Foundation.framework */,
+				8913750117EF72B900FF0840 /* XCTest.framework */,
+				8913750417EF72B900FF0840 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		891374F517EF72B900FF0840 /* HomeControlUnitClient */ = {
+			isa = PBXGroup;
+			children = (
+				8919903C17EF7BA00023E9AD /* UnitFinder */,
+				891374F817EF72B900FF0840 /* HomeControlUnitClient.h */,
+				891374F617EF72B900FF0840 /* Supporting Files */,
+			);
+			path = HomeControlUnitClient;
+			sourceTree = "<group>";
+		};
+		891374F617EF72B900FF0840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891374F717EF72B900FF0840 /* HomeControlUnitClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8913750917EF72B900FF0840 /* HomeControlUnitClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				8913750A17EF72B900FF0840 /* Supporting Files */,
+				8919904417EF7E200023E9AD /* UnitFinderTests.m */,
+			);
+			path = HomeControlUnitClientTests;
+			sourceTree = "<group>";
+		};
+		8913750A17EF72B900FF0840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8913750B17EF72B900FF0840 /* HomeControlUnitClientTests-Info.plist */,
+				8913750C17EF72B900FF0840 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8919903C17EF7BA00023E9AD /* UnitFinder */ = {
+			isa = PBXGroup;
+			children = (
+				8919903D17EF7BCC0023E9AD /* UnitFinder.h */,
+				8919903E17EF7BCC0023E9AD /* UnitFinder.m */,
+			);
+			name = UnitFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891374EF17EF72B900FF0840 /* HomeControlUnitClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8913751317EF72B900FF0840 /* Build configuration list for PBXNativeTarget "HomeControlUnitClient" */;
+			buildPhases = (
+				891374EC17EF72B900FF0840 /* Sources */,
+				891374ED17EF72B900FF0840 /* Frameworks */,
+				891374EE17EF72B900FF0840 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeControlUnitClient;
+			productName = HomeControlUnitClient;
+			productReference = 891374F017EF72B900FF0840 /* libHomeControlUnitClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		891374FF17EF72B900FF0840 /* HomeControlUnitClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8913751617EF72B900FF0840 /* Build configuration list for PBXNativeTarget "HomeControlUnitClientTests" */;
+			buildPhases = (
+				891374FC17EF72B900FF0840 /* Sources */,
+				891374FD17EF72B900FF0840 /* Frameworks */,
+				891374FE17EF72B900FF0840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8913750717EF72B900FF0840 /* PBXTargetDependency */,
+			);
+			name = HomeControlUnitClientTests;
+			productName = HomeControlUnitClientTests;
+			productReference = 8913750017EF72B900FF0840 /* HomeControlUnitClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891374E817EF72B800FF0840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MosziNet;
+			};
+			buildConfigurationList = 891374EB17EF72B800FF0840 /* Build configuration list for PBXProject "HomeControlUnitClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 891374E717EF72B800FF0840;
+			productRefGroup = 891374F117EF72B900FF0840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891374EF17EF72B900FF0840 /* HomeControlUnitClient */,
+				891374FF17EF72B900FF0840 /* HomeControlUnitClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891374FE17EF72B900FF0840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8913750E17EF72B900FF0840 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891374EC17EF72B900FF0840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8919903F17EF7BCC0023E9AD /* UnitFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891374FC17EF72B900FF0840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8919904517EF7E200023E9AD /* UnitFinderTests.m in Sources */,
+				8919904017EF7BCC0023E9AD /* UnitFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8913750717EF72B900FF0840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891374EF17EF72B900FF0840 /* HomeControlUnitClient */;
+			targetProxy = 8913750617EF72B900FF0840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8913750C17EF72B900FF0840 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8913750D17EF72B900FF0840 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8913751117EF72B900FF0840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8913751217EF72B900FF0840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8913751417EF72B900FF0840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HomeControlUnitClient.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeControlUnitClient/HomeControlUnitClient-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8913751517EF72B900FF0840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HomeControlUnitClient.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeControlUnitClient/HomeControlUnitClient-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8913751717EF72B900FF0840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeControlUnitClient/HomeControlUnitClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomeControlUnitClientTests/HomeControlUnitClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8913751817EF72B900FF0840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeControlUnitClient/HomeControlUnitClient-Prefix.pch";
+				INFOPLIST_FILE = "HomeControlUnitClientTests/HomeControlUnitClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891374EB17EF72B800FF0840 /* Build configuration list for PBXProject "HomeControlUnitClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8913751117EF72B900FF0840 /* Debug */,
+				8913751217EF72B900FF0840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8913751317EF72B900FF0840 /* Build configuration list for PBXNativeTarget "HomeControlUnitClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8913751417EF72B900FF0840 /* Debug */,
+				8913751517EF72B900FF0840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8913751617EF72B900FF0840 /* Build configuration list for PBXNativeTarget "HomeControlUnitClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8913751717EF72B900FF0840 /* Debug */,
+				8913751817EF72B900FF0840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 891374E817EF72B800FF0840 /* Project object */;
+}
